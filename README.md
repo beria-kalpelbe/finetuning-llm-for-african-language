@@ -41,7 +41,6 @@ During adapter tuning, the green layers are trained on the downstream data, this
 
 It has been shown to achieve similar performance to updating an entire network while only training 3.6% of the total model parameters.
 
-Below again is pseudo code highlighting where and how this work. Note running the code will not work.
 
 ## Set up
     git clone https://github.com/beria-kalpelbe/finetuning-llm-for-african-language.git
