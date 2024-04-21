@@ -14,10 +14,7 @@ LoRA is an improved finetuning method where instead of finetuning all the weight
 
 For example, suppose we have an LLM with 7B parameters represented in a weight matrix W. During backpropagation, we learn a $\Delta W$ matrix, which contains information on how much we want to update the original weights to minimize the loss function during training.
 
-The weight update is then as follows:
-$$
-    W_{updated} = W + \Delta W
-$$
+The weight update is then $ W_{updated} = W + \Delta W $.
 The LoRA method replaces to decompose the weight changes, $\Delta W$, into a lower-rank representation
 
 <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dfbd169-eb7e-41e1-a050-556ccd6fb679_1600x672.png">
